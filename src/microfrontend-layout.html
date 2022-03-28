@@ -1,6 +1,6 @@
 <single-spa-router>
   <nav>
-  <application name="@single-spa/navbar"></application> 
+    <application name="@single-spa/navbar"></application> 
   </nav> 
   <main>
     <redirect from="/" to="/products"></redirect>
@@ -12,9 +12,6 @@
         </route>
       </route>
     <!-- products -->
-    <route path="/react">
-        <application name="@single-spa/related-products"></application>
-    </route>
     <route default>
       <h1>404 Not Found</h1>
     </route>
